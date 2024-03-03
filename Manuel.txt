@@ -1,0 +1,41 @@
+Manuel d'Utilisation de Scrapforce.py
+Introduction
+
+scrapforce.py est un outil de scraping web et de scan de port conçu pour assister dans des tâches de cybersécurité et de collecte de données. Il permet aux utilisateurs de récupérer le contenu des pages web et d'identifier les ports ouverts sur une adresse IP donnée. Ce manuel vise à fournir des instructions détaillées sur l'utilisation de scrapforce.py, ainsi qu'à souligner les considérations éthiques et légales associées à son utilisation.
+Installation
+
+Avant d'utiliser scrapforce.py, assurez-vous que Python 3 et les bibliothèques nécessaires (requests) sont installés sur votre système. Vous pouvez installer les dépendances requises en utilisant le gestionnaire de paquets pip :
+
+pip install requests
+
+Utilisation
+
+scrapforce.py offre plusieurs options de ligne de commande pour personnaliser ses opérations :
+
+    --url : Spécifie l'URL de la page à scraper.
+    --ip : Définit l'adresse IP à scanner pour les ports ouverts.
+    --start_port et --end_port : Délimitent la plage des ports à scanner.
+    --proxy : Permet de spécifier un proxy pour les requêtes HTTP/HTTPS.
+
+Exemple d'utilisation pour le scraping web :
+
+python scrapforce.py --url "http://exemple.com"
+
+Exemple d'utilisation pour le scan de port :
+
+python scrapforce.py --ip 192.168.1.1 --start_port 1 --end_port 1000
+
+Considérations Légales et Éthiques
+
+L'utilisation de scrapforce.py implique des responsabilités significatives. Il est impératif que les utilisateurs se conforment aux lois et réglementations en vigueur dans leur juridiction, ainsi qu'aux conditions d'utilisation des sites web ciblés. Le scan de port sans autorisation et le scraping de données protégées par des droits d'auteur peuvent être illégaux et entraîner des conséquences juridiques.
+
+Nous déclinons toute responsabilité pour toute utilisation abusive ou illégale de cet outil. L'utilisateur final assume l'entière responsabilité de ses actions avec scrapforce.py.
+Déclaration de Non-responsabilité
+
+Ce logiciel est fourni "tel quel", sans garantie d'aucune sorte, expresse ou implicite, y compris mais non limité aux garanties de commercialisation, d'adéquation à un usage particulier et de non-contrefaçon. En aucun cas, les auteurs ou les détenteurs des droits d'auteur ne pourront être tenus responsables de toute réclamation, dommages ou autre responsabilité, que ce soit dans une action de contrat, de tort ou autre, découlant de, hors de ou en connexion avec le logiciel ou l'utilisation ou d'autres transactions dans le logiciel.
+Contribution
+
+Les contributions au développement de scrapforce.py sont les bienvenues. Pour contribuer, veuillez consulter le dépôt GitHub du projet pour plus d'instructions.
+Licence
+
+scrapforce.py est distribué sous la Licence Publique Générale GNU, version 3 (GPLv3). Pour plus de détails, consultez le fichier LICENSE fourni avec le code source.
