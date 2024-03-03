@@ -2,6 +2,7 @@ ScrapForce.py
 À propos de ScrapForce
 
 scrapforce.py est un outil avancé de scraping web et de scan de port écrit en Python. Conçu pour assister dans les tâches de cybersécurité, il permet aux utilisateurs de récupérer le contenu des pages web et d'identifier les ports ouverts sur une adresse IP spécifiée. Ce programme utilise le multithreading pour améliorer l'efficacité et intègre des fonctionnalités avancées comme le support de proxy et une gestion robuste des erreurs.
+
 Fonctionnalités
 
     Scraping Web : Extraire les liens d'une page web spécifiée.
@@ -39,7 +40,8 @@ Nous déclinons toute responsabilité pour l'utilisation abusive de cet outil ou
 
 Contribuer
 
-Nous accueillons les contributions sous forme de suggestions, de corrections de bugs ou de nouvelles fonctionnalités. Veuillez soumettre vos contributions via des pull requests ou des issues sur la plateforme de gestion de code source utilisée pour ce projet.
+Nous accueillons les contributions sous forme de suggestions, de corrections de bugs ou de nouvelles fonctionnalités. Veuillez soumettre vos contributions via des pull requests ou des issues sur la plateforme de gestion de code source utilisée pour ce projet. En l'occurence https://github.com/PLATON-y/scrapforce.py .
+
 Licence
 
 Ce projet est distribué sous la Licence Publique Générale GNU, version 3 (GPLv3). Voir le fichier LICENSE pour plus de détails.
