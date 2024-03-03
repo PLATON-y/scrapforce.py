@@ -36,6 +36,7 @@ Avertissements Légaux et Éthiques
 En utilisant scrapforce.py, vous acceptez de le faire de manière éthique et conforme à toutes les lois et régulations locales applicables. Le scraping de sites web et le scan de ports peuvent être soumis à des restrictions légales dans certaines juridictions, et il est de la responsabilité de l'utilisateur de s'assurer que leur utilisation de cet outil ne viole pas ces restrictions.
 
 Nous déclinons toute responsabilité pour l'utilisation abusive de cet outil ou pour tout dommage qui pourrait survenir de son utilisation. Cet outil est fourni "tel quel", sans garantie d'aucune sorte.
+
 Contribuer
 
 Nous accueillons les contributions sous forme de suggestions, de corrections de bugs ou de nouvelles fonctionnalités. Veuillez soumettre vos contributions via des pull requests ou des issues sur la plateforme de gestion de code source utilisée pour ce projet.
